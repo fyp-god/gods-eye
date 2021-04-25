@@ -33,6 +33,7 @@ Follow these exact steps in the same order before attempting to run the project:
 10. Now copy all the contents of (i.e. folders & files inside the) **main** folder of our repo into **C:\xampp\htdocs**
 
 11. Inside C:\XAMPP\ you'll find xampp-control.exe >> Double click and start Apache and MySql. Ensure MySQL runs in port 3306. 
+      
       11(a) - Go to your browser and type localhost/phpmyadmin/ . Dashboard will open up. Click on SQL >> Execute the queries given in SQLSetup.txt file.
       
 12. If you have completed everything till here successfully, then the project will work.
