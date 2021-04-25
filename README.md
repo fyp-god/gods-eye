@@ -23,7 +23,7 @@ Follow these exact steps in the same order before attempting to run the project:
 6. Copy the two folders which are **inside the dlib folder** in the repository to the following path (may vary based on your anaconda installation path)
     **C:\Users\username\anaconda3\envs\fyp\Lib\site-packages**
 
-7. Click on Environments in Anaconda, Click fyp, next to fyp env you will see a Play button, Click Open with terminal. Execute "All" commands given in Dependecies.txt file.                  
+7. Click on Environments in Anaconda, Click fyp, next to fyp env you will see a Play button, Click Open with terminal. Execute "All" commands given in Dependencies.txt file.                  
                   7(a) - After this try to run gods_eye.py in spyder, if it shows some ....300W iBuG shape_landmark_detector.. error DM me.
 
 8. Go to This PC, Right Click >> Click Properties >> Advanced System Settings Settings >> Environment Variables >> In User Variables & System Variables, you will find "Path"
