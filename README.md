@@ -5,7 +5,7 @@
 
 Home Page & View CCTV Footage Pages have been completed by KC 
 Several CSS, PHP and image files have been added, Update your local repo with latest code and verify.
-VP & CA Refer Open Issue #1
+### VP & CA Refer Open Issue #2
 
 Repo contains all required files for completion of local setup of gods-eye
 
