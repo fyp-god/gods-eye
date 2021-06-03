@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+            <style >
+             
+            </style>
         <meta charset="utf-8">
-        <title>Browse People - God's Eye</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>God's Eye - Fully Automatic Human Tracking</title>
+<!-- 
+
+Highway Template
+
+https://templatemo.com/tm-520-highway
+
+-->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+ 
+        <!-- <link rel="stylesheet" href="css/fontAwesome.css"> -->
+        <link rel="stylesheet" href="css/templatemo-style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Website Template" name="keywords">
         <meta content="Free Website Template" name="description">
 
-        <!-- Favicon -->
-        <link href="img/GEicon.jpg" rel="icon">
-
+        <link href="GEicon.jpg" rel="icon">
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
@@ -22,6 +43,7 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+
     </head>
 
     <body>
@@ -59,7 +81,7 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand">GodView <span>X</span></a>
+                <a href="home.php" class="navbar-brand">God's Eye </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -75,116 +97,136 @@
                 </div>
             </div>
         </div>
-        <!-- Nav Bar End -->
 
-        <!-- Page Header Start -->
-        <div class="page-header">
+
+    <div id="video-container">
+        <div class="video-overlay"></div>
+        <div class="video-content">
+            <div class="inner">
+              <h1>Welcome to <em>God's Eye</em></h1>
+              <p>A fully automated</p>
+              <p>Human Tracking Software</p>
+                <div class="scroll-icon">
+                    <a class="scrollTo" data-scrollTo="portfolio" href="#"><img src="img/scroll-icon.png" alt=""></a>
+                </div>    
+            </div>
+        </div>
+        <video autoplay="" loop="" muted>
+            <source src="su.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+     <div class="about">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2>Browse People</h2>
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="about-img">
+                            <img src="img/a5.jpg" alt="Image">
+                        </div>
                     </div>
-                    <div class="col-12">
-                        <a href="">Home</a>
-                        <a href="">Browse People</a>
+                    <div class="col-lg-7 col-md-6">
+                        <div class="section-header text-left">
+                            <p>Learn About Us</p>
+                            <h2>Overview of God's Eye</h2>
+                        </div>
+                        <div class="about-text">
+                            <p>
+                                Welcome to God's Eye. The future of manhunts is now!<br><br>
+                                God's Eye is a fully automated human and human activity tracking system that spans across several use cases to fulfill your manhunt requirements.<br> Our powerful Neural Engine coupled with an effective footage analysis and fast-indexed database maps and tracks a person leveraging your city's CCTV footage and gives you detailed information regarding a persons whereabouts such as "current location whereabouts", "last seen location" and activity videos.<br><br>
+                            </p>
+                            <p>
+                                Given a single image of the person, Within a matter of minutes, we preprocess & frontalize the persons features, analyze CCTV footage in an intelligent manner with a state-of-the-art face recognition algorithm, cross references the database and provides you with close to real time location results of a person seamlessly!
+                            </p>
+                            <a class="btn" href="">Learn More</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Page Header End -->
+        <!-- About End -->
+        <div class="section-header text-left">
+            <h2><br><br>Quick Access Carousel</h2>
+        </div>
+        
+        <div class="testimonial">
+            <div class="container">
+                <div class="owl-carousel testimonials-carousel">
+                    <div class="testimonial-item">
+                        <img src="img/a1.png" alt="Image">
+                        <p>
+                            In photo based search, you can feed a single photo and can a track a person.
 
-
-        <!-- Portfolio Start -->
-        <div class="portfolio">
+                        </p>
+                        <a class="butt" href="about.php">Try it yourself</a>
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/a2.png" alt="Image">
+                        <p>
+                            In video city footages you can browse through the videos stored in our database.
+                        </p>
+                        <a class="butt" href="cityfootage.php">Check it yourself</a>
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/a3.jpg" alt="Image">
+                        <p>
+                            We would love to hear your opinions about this application through your rating and feedback.
+                        </p>
+                        <a  class="butt" href="rating.php">Give your feedback</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Some Images of People Searched on God's Eye </p>
-                    <h2>God's Eye Gallery</h2>
+                    <h2><br><br>God's Eye Team</h2>
                 </div>
                 <div class="row">
-                    <div class="col-12">
-                        <ul id="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".first">Most Recent</li>
-                            <li data-filter=".second">Most Searched</li>
-                            <!-- <li data-filter=".third">Color & Wash</li> -->
-                        </ul>
-                    </div>
-                </div>
-                <div class="row portfolio-container">
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item first">
-                        <div class="portfolio-wrap">
-                            <a href="RecentPeople/img1.jpeg" data-lightbox="portfolio">
-                                <img height = "200px" width = "200px" src="RecentPeople/img1.jpeg" alt="Portfolio Image">
-                            </a>
-                            
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/shyam.jpeg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Shyam R</h2>
+                                
+                            </div>
                         </div>
-                        <form action = "loadingpagebrowse.php" method="post">
-                                    <button name="test1" class = "nowbutton" >Run God's Eye for this Person!</button>
-                        </form>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second">
-                        <div class="portfolio-wrap">
-                            <a href="RecentPeople/img2.jpeg" data-lightbox="portfolio">
-                                <img height = "200px" width = "200px" src="RecentPeople/img2.jpeg" alt="Portfolio Image">
-                            </a>
-                            
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/suraj.jpeg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Suraj K C</h2>
+                            </div>
                         </div>
-                        <form action = "loadingpagebrowse.php" method="post">
-                                    <button name="test2" class = "nowbutton" >Run God's Eye for this Person!</button>
-                        </form>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third">
-                        <div class="portfolio-wrap">
-                            <a href="RecentPeople/img3.jpeg" data-lightbox="portfolio">
-                                <img height = "200px" width = "200px" src="RecentPeople/img3.jpeg" alt="Portfolio Image">
-                            </a>
-                            
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/sagar.jpeg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Sagar C A</h2>
+                            </div>
                         </div>
-                        <form action = "loadingpagebrowse.php" method="post">
-                                    <button name="test3" class = "nowbutton" >Run God's Eye for this Person!</button>
-                            </form>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item first">
-                        <div class="portfolio-wrap">
-                            <a href="RecentPeople/img4.jpeg" data-lightbox="portfolio">
-                                <img height = "200px" width = "200px" src="RecentPeople/img4.jpeg" alt="Portfolio Image">
-                            </a>
-                            
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/vin.jpeg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Vinayak Patil </h2>
+                            </div>
                         </div>
-                        <form action = "loadingpagebrowse.php" method="post">
-                                    <button name="test4" class = "nowbutton" >Run God's Eye for this Person!</button>
-                            </form>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second">
-                        <div class="portfolio-wrap">
-                            <a href="RecentPeople/img5.jpeg" data-lightbox="portfolio">
-                                <img height = "200px" width = "200px" src="RecentPeople/img5.jpeg" alt="Portfolio Image">
-                            </a>
-                            
-                        </div>
-                        <form action = "loadingpagebrowse.php" method="post">
-                                    <button name="test5" class = "nowbutton" >Run God's Eye for this Person!</button>
-                            </form>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third">
-                        <div class="portfolio-wrap">
-                            <a href="RecentPeople/img6.jpeg" data-lightbox="portfolio">
-                                <img height = "200px" width = "200px"  src="RecentPeople/img6.jpeg" alt="Portfolio Image">
-                            </a>
-                            
-                        </div>
-                        <form action = "loadingpagebrowse.php" method="post">
-                                    <button name="test6" class = "nowbutton" >Run God's Eye for this Person!</button>
-                            </form>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio Start -->
 
-
-        <!-- Footer Start -->
         <div class="footer">
             <div class="container">
                 <div class="row">
@@ -195,7 +237,7 @@
                                     <h2>God's Eye Inc.</h2>
                                     <p><i class="fa fa-map-marker-alt"></i>NIE, Manandavadi Road, Mysore, India</p>
                                     <p><i class="fa fa-phone-alt"></i>+91 9876543210</p>
-                                    <p><i class="fa fa-envelope"></i>sagarca777@gmail.com</p>
+                                    <p><i class="fa fa-envelope"></i>godseye@gmail.com</p>
                                     <div class="footer-social">
                                         <a href=""><i class="fab fa-twitter"></i></a>
                                         <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -243,6 +285,9 @@
                 </div>
             </div>
         </div>
+
+
+
         <!-- Footer End -->
 
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -261,7 +306,15 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script type="text/javascript">
+            $(function() {
+              $('input[type=file]').change(function(){
+                var t = $(this).val();
+                var labelText = 'File : ' + t.substr(12, t.length);
+                $(this).prev('label').text(labelText);
+              })
+            });
 
-            
+        </script>
     </body>
 </html>
